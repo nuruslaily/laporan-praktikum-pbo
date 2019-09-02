@@ -50,11 +50,9 @@ Jawab : dikarenakan pada dasarnya hamper sama dengan class Sepeda yang memiliki 
 
 (silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+![tugas](img/5.PNG)![tugas](img/6.PNG)![tugas](img/7.PNG)![tugas](img/8.PNG)
 
-![contoh screenshot](img/contoh-schot1.PNG)
-
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Laptop.java)(../../src/1_Pengantar_Konsep_PBO/LaptopMain.java)(../../src/1_Pengantar_Konsep_PBO/LaptopGaming.java)
 
 ## Kesimpulan
 
