@@ -6,7 +6,11 @@
 
 ## Ringkasan Materi
 
-
+Terdapat 4 pilar dalam PBO yaitu :
+1. Enkapsulasi
+2. Abstraction
+3. Inheritance
+4. Polimorfisme
 
 ## Percobaan
 
@@ -16,7 +20,9 @@
 
 ![percobaan1](img/1.PNG)![percobaan1](img/2.PNG)
 
-link kode program : [ini link ke kode program ](../../src/1_Pengantar_Konsep_PBO/Sepeda.java)[ini link ke kode program main](../../src/1_Pengantar_Konsep_PBO/SepedaMain.java)
+link kode program : 
+[ini link ke kode program ](../../src/1_Pengantar_Konsep_PBO/Sepeda.java)
+[ini link ke kode program main](../../src/1_Pengantar_Konsep_PBO/SepedaMain.java)
 
 ### Percobaan 2
 
@@ -24,7 +30,9 @@ link kode program : [ini link ke kode program ](../../src/1_Pengantar_Konsep_PBO
 
 ![percobaan2](img/3a.PNG)![percobaan2](img/3.PNG)
 
-link kode program : [ini contoh link ke kode program ](../../src/1_Pengantar_Konsep_PBO/SepedaGunung.java)[ini contoh link ke kode program main](../../src/1_Pengantar_Konsep_PBO/SepedaGunungMain.java)
+link kode program : 
+[ini contoh link ke kode program ](../../src/1_Pengantar_Konsep_PBO/SepedaGunung.java)
+[ini contoh link ke kode program main](../../src/1_Pengantar_Konsep_PBO/SepedaGunungMain.java)
 
 ## Pertanyaan
 
@@ -41,7 +49,7 @@ Jawab : Jika ada perubahan fitur, maka dapat dipastikan keseluruhan program tida
 Jawab : merek, kecepatan, gear
 
 5.	Tambahkan atribut warna pada class Sepeda.
-Jawab : [gambarpertanyaan](img/4.PNG)
+Jawab : ![gambarpertanyaan](img/4.PNG)
 
 6.	Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?
 Jawab : dikarenakan pada dasarnya hamper sama dengan class Sepeda yang memiliki kecepatan, memiliki gear, memiliki nama merek, dapat menambah kecepatan, dapat mengerem, pindah gigi, dsb. Namun ada tambahan tipe suspensi, maka dari itu kita extends saja dari class Sepeda lalu kita tambahkan fitur yang belum ada diclass Sepeda.
@@ -52,11 +60,14 @@ Jawab : dikarenakan pada dasarnya hamper sama dengan class Sepeda yang memiliki 
 
 ![tugas](img/5.PNG)![tugas](img/6.PNG)![tugas](img/7.PNG)![tugas](img/8.PNG)
 
-link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Laptop.java)(../../src/1_Pengantar_Konsep_PBO/LaptopMain.java)(../../src/1_Pengantar_Konsep_PBO/LaptopGaming.java)
+link kode program : 
+[ini contoh link ke kode program ](../../src/1_Pengantar_Konsep_PBO/Laptop.java)
+[ini contoh link ke kode program Main](../../src/1_Pengantar_Konsep_PBO/LaptopMain.java)
+[ini contoh link ke kode program extends](../../src/1_Pengantar_Konsep_PBO/LaptopGaming.java)
 
 ## Kesimpulan
 
-(Berisi simpulan yang telah diperoleh selama praktikum atau belajar pada pertemuan ini)
+Kesimpulannya kita bisa menambahkan extends pada class yang lain dalam PBO ini.
 
 ## Pernyataan Diri
 
@@ -66,4 +77,4 @@ Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektua
 
 Ttd,
 
-***(silakan isi nama lengkap di sini)***
+Nurus Laily Aprillia
