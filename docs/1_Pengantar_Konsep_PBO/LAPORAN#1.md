@@ -16,7 +16,7 @@
 
 ![percobaan1](img/1.PNG)![percobaan1](img/2.PNG)
 
-link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda.java)[ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaMain.java)
+link kode program : [ini link ke kode program ](../../src/1_Pengantar_Konsep_PBO/Sepeda.java)[ini link ke kode program main](../../src/1_Pengantar_Konsep_PBO/SepedaMain.java)
 
 ### Percobaan 2
 
@@ -24,7 +24,7 @@ link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/
 
 ![percobaan2](img/3a.PNG)![percobaan2](img/3.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunung.java)[ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunungMain.java)
+link kode program : [ini contoh link ke kode program ](../../src/1_Pengantar_Konsep_PBO/SepedaGunung.java)[ini contoh link ke kode program main](../../src/1_Pengantar_Konsep_PBO/SepedaGunungMain.java)
 
 ## Pertanyaan
 
