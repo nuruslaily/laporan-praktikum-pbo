@@ -6,7 +6,7 @@
 
 ## Ringkasan Materi
 
-(berisi catatan penting pribadi selama praktikum berlangsung ataupun menemukan permasalahan khusus saat melakukan percobaan)
+
 
 ## Percobaan
 
@@ -14,25 +14,21 @@
 
 (berisi penjelasan percobaan 1. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+![percobaan1](img/1.PNG)[percobaan1](img/2.PNG)
 
-![contoh screenshot](img/contoh-schot1.PNG)
-
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Contoh link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda.java)[ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaMain.java)
 
 ### Percobaan 2
 
 (berisi penjelasan percobaan 2. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+![percobaan2](img/3a.PNG)[percobaan2](img/3.PNG)
 
-![contoh screenshot](img/contoh-schot1.PNG)
-
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunung.java)[ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunungMain.java)
 
 ## Pertanyaan
 
-(silakan ketik pertanyaan di sini beserta jawabannya.)
+
 
 ## Tugas
 
