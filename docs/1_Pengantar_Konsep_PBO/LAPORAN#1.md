@@ -14,6 +14,9 @@ Terdapat 4 pilar dalam PBO yaitu :
 3. Inheritance
 4. Polimorfisme
 
+Dan terdapat masalah, bagaimana cara kita memanggil program secara inheritance bila semisal generasi ketiga memanggil generasi yang pertama?
+
+
 ## Percobaan
 
 ### Percobaan 1
@@ -39,7 +42,11 @@ link kode program :
 ## Pertanyaan
 
 1.	Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek!
-Jawab : Object, Class, Enkapsulasi, Inheritance, Polimorfisme
+Jawab : Object 'Object adalah suatu rangkaian dalam program yang terdiri dari state dan behaviour' , 
+Class 'Class adalah blueprint atau prototype dari objek. Ambil contoh objek sepeda.', 
+Enkapsulasi 'Disebut juga dengan information-hiding', 
+Inheritance 'Inheritance memungkinkan kita untuk mengorganisir struktur program dengan natural.', 
+Polimorfisme 'Polimorfisme juga meniru sifat objek di dunia nyata, dimana sebuah objek dapat memiliki bentuk, atau menjelma menjadi bentuk-bentuk lain. '
 
 2.	Apa yang dimaksud dengan object dan apa bedanya dengan class?
 Jawab : Object adalah suatu rangkaian dalam program yang terdiri dari state(ciri-ciri/atribut) dan behavior(perilaku). Bedanya dengan class ialah blueprint atau prototype dari object.
