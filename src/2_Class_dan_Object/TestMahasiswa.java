@@ -6,9 +6,9 @@ package minggu2;
  */
 public class TestMahasiswa {
     public static void main(String args[]){
-        Mahasiswa mhs1=new Mahasiswa();
-        Mahasiswa mhs2=new Mahasiswa();
-        Mahasiswa2 mhs3=new Mahasiswa2();
+        Mahasiswa1841720049Nurus mhs1=new Mahasiswa1841720049Nurus();
+        Mahasiswa1841720049Nurus mhs2=new Mahasiswa1841720049Nurus();
+        Mahasiswa1841720049Nurus_2 mhs3=new Mahasiswa1841720049Nurus_2();
         
         mhs1.nim=101;
         mhs1.nama="Lestari";

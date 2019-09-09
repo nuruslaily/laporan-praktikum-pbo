@@ -4,7 +4,7 @@ package minggu2tugas;
  *
  * @author Nurus Laily
  */
-public class SewaGameMain {
+public class SewaGameMain1841720049Nurus {
     public static void main(String args[]){
     TokoSewaGame tkg = new TokoSewaGame();
     tkg.id = 1541;

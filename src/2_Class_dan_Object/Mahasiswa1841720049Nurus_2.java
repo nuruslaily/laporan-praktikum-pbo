@@ -4,7 +4,7 @@ package minggu2;
  *
  * @author Nurus Laily
  */
-public class Mahasiswa2 extends Mahasiswa{
+public class Mahasiswa1841720049Nurus_2 extends Mahasiswa1841720049Nurus{
     private String nohp;
     
     public void setNoHP(String newValue){

@@ -6,7 +6,7 @@ package minggu2;
  */
 public class TestBarang {
     public static void main(String args[]){
-        BarangNurus brg1=new BarangNurus();
+        Barang1841720049Nurus brg1=new Barang1841720049Nurus();
         brg1.namaBrg="Pensil";
         brg1.jenisBrg="ATK";
         brg1.stok=10;

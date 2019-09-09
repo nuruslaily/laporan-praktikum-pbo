@@ -6,7 +6,7 @@ package minggu2tugas;
  */
 public class Barang_Main {
     public static void main(String args[]){
-        Barang brg = new Barang();
+        Barang1841720049Nurus_2 brg = new Barang1841720049Nurus_2();
         brg.kode="111";
         brg.namaBarang="Tas Ransel";
         brg.hargaDasar=75000;

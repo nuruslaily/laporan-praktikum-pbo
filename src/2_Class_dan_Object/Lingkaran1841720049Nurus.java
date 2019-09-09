@@ -5,7 +5,7 @@ package minggu2tugas;
  *
  * @author Nurus Laily
  */
-public class Lingkaran {
+public class Lingkaran1841720049Nurus {
     public double phi=3.14;
     public double r;
     public double hitungLuas(double r){

@@ -6,7 +6,7 @@ package minggu2tugas;
  */
 public class LingkaranMain {
     public static void main(String args []){
-        Lingkaran lkr1 = new Lingkaran();
+        Lingkaran1841720049Nurus lkr1 = new Lingkaran1841720049Nurus();
         
         lkr1.r = 3;
         lkr1.tampilHasil();

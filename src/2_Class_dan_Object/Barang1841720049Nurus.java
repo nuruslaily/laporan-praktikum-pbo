@@ -4,7 +4,7 @@ package minggu2;
  *
  * @author Nurus Laily
  */
-public class BarangNurus {
+public class Barang1841720049Nurus {
     public String namaBrg;
     public String jenisBrg;
     public int stok;
