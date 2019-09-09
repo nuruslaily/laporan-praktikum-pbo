@@ -13,8 +13,9 @@
 
 ## Ringkasan Materi
 
-extends (single-parent)
-implements(multiple_class/inface)
+Extends (single-parent) untuk memperluas class.
+
+Implements(multiple_class/inface) untuk mengimplementasikan interface.
 
 
 ## Percobaan
