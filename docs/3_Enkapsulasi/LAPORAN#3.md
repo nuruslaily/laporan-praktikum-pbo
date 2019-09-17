@@ -44,15 +44,15 @@ link kode program :
 1.  Pada class TestMobil, saat kita menambah kecepatan untuk pertama kalinya, mengapa 
 muncul peringatan “Kecepatan tidak bisa bertambah karena Mesin Off!”? 
 
-Jawab : Dikarenakan 
+Jawab : Dikarenakan pernyataan yang kita dapatkan masih false, lalu kita menambahkan lagi maka pernyataan menjadi true
 
 2.  Mengapa atribut kecepatan dan kontakOn diset private? 
 
-Jawab : 
+Jawab : Dikarenakan kita sedang menyembunyikan atribut internal dari class lain
 
 3.  Ubah class Motor sehingga kecepatan maksimalnya adalah 100!
 
-Jawab :
+Jawab : 
 
 ### Percobaan 3 - Getter dan Setter
 
