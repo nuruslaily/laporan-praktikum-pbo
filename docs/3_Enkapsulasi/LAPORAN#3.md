@@ -40,6 +40,20 @@ link kode program :
 
 [ini link ke kode program main](../../src/3_Enkapsulasi/MotorDemo1841720049nurus.java)
 
+## Pertanyaan – Percobaan 3 dan 4
+1.  Pada class TestMobil, saat kita menambah kecepatan untuk pertama kalinya, mengapa 
+muncul peringatan “Kecepatan tidak bisa bertambah karena Mesin Off!”? 
+
+Jawab : Dikarenakan 
+
+2.  Mengapa atribut kecepatan dan kontakOn diset private? 
+
+Jawab : 
+
+3.  Ubah class Motor sehingga kecepatan maksimalnya adalah 100!
+
+Jawab :
+
 ### Percobaan 3 - Getter dan Setter
 
 ![gettersetter](img/5.PNG)
