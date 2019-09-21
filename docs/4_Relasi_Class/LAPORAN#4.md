@@ -11,7 +11,6 @@ Setelah menempuh pokok bahasan ini, mahasiswa mampu:
 
 Interface merupakan sekumpulan method tanpa extend, abstrac bisa class aja tanpa method dan dengan extend
 
-
 ## Praktikum
 
 ### Percobaan 1
@@ -30,24 +29,35 @@ link kode program :
 ## Pertanyaan
 
 Berdasarkan percobaan 1, jawablah pertanyaan‑pertanyaan yang terkait:
-1.  Di dalam  class  Processor  dan  class  Laptop  , terdapat method  setter  dan  getter  untuk 
-masing‑masing atributnya. Apakah gunanya method setter dan getter tersebut ?
-2.  Di dalam  class  Processor  dan  class  Laptop, masing‑masing terdapat konstruktor 
-default dan konstruktor berparameter. Bagaimanakah  beda penggunaan dari kedua jenis 
+1.  Di dalam  class  Processor  dan  class  Laptop  , terdapat method  setter  dan  getter  untuk masing‑masing atributnya. Apakah gunanya method setter dan getter tersebut ?
+
+Jawab :  method setter digunakan untuk mengatur nilai awal. Method getter digunakan untuk menampilkan hasil dari hasil perhitungan
+
+2.  Di dalam  class  Processor  dan  class  Laptop, masing‑masing terdapat konstruktor default dan konstruktor berparameter. Bagaimanakah  beda penggunaan dari kedua jenis 
 konstruktor tersebut ? 
-Page 4 of 10
-3.  Perhatikan  class  Laptop, di  antara 2 atribut yang dimiliki (merk  dan  proc), atribut 
-manakah yang bertipe object ?
-4.  Perhatikan  class  Laptop, pada baris manakah yang menunjukan bahwa  class  Laptop
-memiliki relasi dengan class Processor ?
+
+Jawab : konstruktor default adalah jenis konstruktor yang disebut secara otomatis. Konstruktor berparameter adalah jenis konstruktor yang telah ditentukan oleh programmer dan parameter itu disi pada main.
+
+3.  Perhatikan  class  Laptop, di  antara 2 atribut yang dimiliki (merk  dan  proc), atribut manakah yang bertipe object ?
+
+Jawab : atribut proc/processor
+
+4.  Perhatikan  class  Laptop, pada baris manakah yang menunjukan bahwa  class  Laptop memiliki relasi dengan class Processor ?
+
+Jawab : pada kalimat private Processor proc
+
 5.  Perhatikan pada class Laptop , Apakah guna dari sintaks proc.info() ?
+
+Jawab : untuk menampilkan info/output yang terdapat di class processor
+
 6.  Pada class MainPercobaan1, terdapat baris kode:
-Laptop l = new Laptop("Thinkpad", p);.
-Apakah p tersebut ?
+Laptop l = new Laptop("Thinkpad", p);.Apakah p tersebut ?
 Dan apakah yang terjadi jika baris kode tersebut diubah menjadi:
 Laptop l = new Laptop("Thinkpad",  new Processor("Intel i5", 
 3));
 Bagaimanakah hasil program saat dijalankan, apakah ada perubahan ?
+
+Jawab : p digunakan untuk memanggil objek processor. Jika diubah hasilnya akan sama saja.
 
 ### Percobaan 2 
 
@@ -68,126 +78,113 @@ link kode program :
 [ini link ke kode program ](../../src/4_Relasi_Class/MainPercobaan2_1841720049nurus.java)
 
 ## Pertanyaan 
-1.  Pada class TestMobil, saat kita menambah kecepatan untuk pertama kalinya, mengapa 
-muncul peringatan “Kecepatan tidak bisa bertambah karena Mesin Off!”? 
 
-Jawab : Dikarenakan pernyataan yang kita dapatkan masih false, lalu kita menambahkan lagi maka pernyataan menjadi true
+1.  Perhatikan class  Pelanggan. Pada baris program manakah  yang menunjukan bahwa class Pelanggan memiliki relasi dengan class Mobil dan class Sopir ?
 
-2.  Mengapa atribut kecepatan dan kontakOn diset private? 
+Jawab : private Mobil mobil;
+private Sopir sopir;
 
-Jawab : Dikarenakan kita sedang menyembunyikan atribut internal dari class lain
+2.  Perhatikan  method  hitungBiayaSopir  pada class Sopir, serta method hitungBiayaMobil  pada class  Mobil. Mengapa menurut Anda  method  tersebut harus memiliki argument hari ?
 
-3.  Ubah class Motor sehingga kecepatan maksimalnya adalah 100!
+Jawab : karena diperlukan untuk menghitung jumlah biaya yang biayanya dihitung perharinya.
+
+3.  Perhatikan kode dari class Pelanggan. Untuk apakah perintah mobil.hitungBiayaMobil(hari) dan sopir.hitungBiayaSopir(hari) ?
+
+Jawab : 
+-	Mobil.hitungbiayamobil(hari) digunakan untuk mendapatkan nilai biaya sewa mobil. 
+-	sopir.hitungbiayasopir(hari) digunakan untuk mendapatkan nilai biaya sewa sopir
+
+4.  Perhatikan  class  MainPercobaan2. Untuk apakah sintaks  p.setMobil(m) dan p.setSopir(s) ?
+
+Jawab : untuk memanggil dan mengisi atribut mobil dan sopir pada objek pelanggan.
+
+5.  Perhatikan class  MainPercobaan2. Untuk apakah proses  p.hitungBiayaTotal() tersebut ?
+
+Jawab : untuk menghitung biaya total dari perhitungan biaya sewa mobil dan biaya sewa sopir. 
+
+6.  Perhatikan class  MainPercobaan2, coba tambahkan pada baris terakhir dari  method main dan amati perubahan saat di‑run!
+System.out.println(p.getMobil().getMerk());
+Jadi untuk apakah sintaks p.getMobil().getMerk() yang ada di dalam method main tersebut?
 
 Jawab : 
 
-### Percobaan 3 - Getter dan Setter
+### Percobaan 3 
 
-![gettersetter](img/5.PNG)
-![gettersetter](img/6.PNG)
 
-link kode program : 
-
-[ini contoh link ke kode program ](../../src/3_Enkapsulasi/Anggota1841720049nurus.java)
-
-[ini contoh link ke kode program main](../../src/3_Enkapsulasi/KoperasiDemo1841720049nurus.java)
-
-### Percobaan 4 - Konstruktor dan Instansiasi
-
-![gettersetter](img/7.PNG)
-![gettersetter](img/8.PNG)
-![gettersetter](img/9.PNG)
 
 link kode program : 
 
-[ini contoh link ke kode program ](../../src/3_Enkapsulasi/Anggota1841720049nurus.java)
+[ini contoh link ke kode program ](../../src/4_Relasi_Class/)
 
-[ini contoh link ke kode program main](../../src/3_Enkapsulasi/KoperasiDemo1841720049nurus.java)
+[ini contoh link ke kode program main](../../src/4_Relasi_Class/)
 
-## Pertanyaan – Percobaan 3 dan 4
+## Pertanyaan 
 
-1.  Apa yang dimaksud getter dan setter?
+1.  Di dalam  method  info()  pada  class  KeretaApi, baris this.masinis.info()  dan this.asisten.info() digunakan untuk apa ?
 
-    Jawab : Getter adalah public method yang digunakan untuk mengambil data dan ditampilkan ke dalam objek dan memiliki tipe data return, yang berfungsi untuk mendapatkan nilai 
-dari atribut private. Sedangkan setter adalah public method yang digunakan untuk mengisi dan mengatur data dan tidak memliki tipe data return, 
-yang berfungsi untuk memanipulasi nilai dari atribut private.
+Jawab : method info() pada class keretaApi digunakan untuk memanggil method info yang berada dalam objek masinis. This.masinis.info() dan This.asisten.info() digunakan untuk menampilkan output dari objek tersebut. 
 
-2.  Apa kegunaan dari method getSimpanan()?
+2.  Buatlah  main  program baru dengan nama  class  MainPertanyaan  pada  package  yang sama. Tambahkan kode berikut pada method main() !
+Pegawai masinis = new Pegawai("1234", "Spongebob Squarepants");
+KeretaApi keretaApi = new KeretaApi("Gaya Baru", "Bisnis" masinis);
+System.out.println(keretaApi.info());
 
-    Jawab : mengambil data simpanan untuk ditampilkan kedalam objek
+Jawab : 
 
-3.  Method apa yang digunakan untuk menambah saldo?
+3.  Apa hasil output dari main program tersebut ? Mengapa hal tersebut dapat terjadi ?
 
-    Jawab : public void setorNurus(float uang)/void setorNurus()
+Jawab :
 
-4.  Apa yand dimaksud konstruktor?
+4.  Perbaiki class KeretaApi sehingga program dapat berjalan !
 
-    Jawab : method khusus untuk menampilkan atribut dalam objek
+Jawab :
 
-5.  Sebutkan aturan dalam membuat konstruktor?
+### Percobaan 4
 
-    Jawab :
--  Nama konstruktor harus sama dengan nama class
--  Konstruktor tidak memiliki tipe data return
--  Konstruktor tidak boleh menggunakan modifier abstract, static, final, dan syncronized 
+![Percobaan 4](img/8.PNG)
+![Percobaan 4](img/9.PNG)
 
-6.  Apakah boleh konstruktor bertipe private?
+link kode program : 
 
-    Jawab : Boleh, di java kita dapat memiliki konstruktor dengan modifier private, protected, public or default
+[ini contoh link ke kode program ](../../src/4_Relasi_Class/)
 
-7.  Kapan menggunakan parameter dengan passsing parameter?
+[ini contoh link ke kode program main](../../src/4_Relasi_Class/)
 
-    Jawab : pada saat terdapat method yang membutuhkan input dari  class main terutama pada konstruktor.
+## Pertanyaan 
+1.  Pada  main  program dalam  class  MainPercobaan4, berapakah jumlah kursi dalam Gerbong A ?
 
-8.  Apa perbedaan atribut class dan instansiasi atribut?
+Jawab : 10 kursi
 
-    Jawab : Atribut class  merupakan nilai data yang terdapat pada suatu object yang berasal dari _class_, Sedangkan instansiasi atribut adalah pembuatan dari atribut itu sendiri, meliputi tipe data, nama, serta isi dari atribut.
+2.  Perhatikan potongan kode pada  method  info()  dalam class Kursi. Apa maksud kode tersebut ?
+...
+if (this.penumpang != null) {
+info += "Penumpang: " + penumpang.info() + "\n";
+}
+...
 
-9.  Apa perbedaan class method dan instansiasi method?
+Jawab : Jika penumpang “null” maka informasi penumpang tidak ditampilkan
 
-    Jawab : Pada class method kita langsung memanggil dengan mengisikan parameter, sedangkan instansiasi method kita perlu membuat objek baru untuk pemanggilan method.
+3.  Mengapa pada  method  setPenumpang()  dalam  class  Gerbong, nilai nomor dikurangi dengan angka 1 ?
 
+Jawab : Karena menggunakan array, maka menghitung indeksnya otomatis dari 0.
+
+4.  Instansiasi objek baru budi dengan tipe  Penumpang, kemudian masukkan objek baru tersebut pada gerbong dengan  gerbong.setPenumpang(budi, 1). Apakah yang terjadi ?
+
+Jawab : penumpang Budi akan menduduki kursi 1
+
+5.  Modifikasi program sehingga  tidak diperkenankan untuk menduduki kursi yang sudah ada penumpang lain !
+
+Jawab : 
 
 ## Tugas
-1. EncapDemo
-![encapdemo](img/10.PNG)
-![encapdemo](img/11.PNG)
 
-link kode program : 
+1. Bioskop
 
-[ini contoh link ke kode program ](../../src/3_Enkapsulasi/EncapDemo1841720049nurus.java)
 
-[ini contoh link ke kode program ](../../src/3_Enkapsulasi/EncapTest1841720049nurus.java)
-
-2. Dikarenakan didalam method setAge kita mengatur jika/if umur kita lebih dari 30 maka kita output yang akan dikeluarkan adalah output 30
-
-3. Merubah atribut age sehingga bisa diberi nilai maksimal 30 dan minimal 18
-![encapdemo](img/12.PNG) 
-![encapdemo](img/13.PNG)
-
-[ini contoh link ke kode program ](../../src/3_Enkapsulasi/EncapDemo1841720049nurus.java)
-
-[ini contoh link ke kode program Main](../../src/3_Enkapsulasi/EncapTest1841720049nurus.java)
-
-4. Koperasi Simpan Pinjam
-![koperasisp](img/14.PNG)![koperasisp](img/15.PNG)
-![koperasisp](img/16.PNG)![koperasisp](img/17.PNG)
-
-link kode program : 
-
-[ini contoh link ke kode program ](../../src/3_Enkapsulasi/Anggota1841720049nurus_2.java)
-
-[ini contoh link ke kode program Main](../../src/3_Enkapsulasi/TestKoperasi1841720049nurus.java)
-
-5. ![koperasisp](img/18.PNG)
-![koperasisp](img/19.PNG)
-![koperasisp](img/20.PNG)
-
-6. ![koperasisp](img/21.PNG)
 
 ## Kesimpulan
 
-Kesimpulannya kita bisa mengetahui fungsi dari konstruktor, method class, instansiasi objek, getter dan setter, access modifier, enkapsulasi serta menyesuaikan class diagram dengan notasi programnya.
+
 
 ## Pernyataan Diri
 
