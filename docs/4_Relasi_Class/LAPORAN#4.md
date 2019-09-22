@@ -20,11 +20,11 @@ Interface merupakan sekumpulan method tanpa extend, abstrac bisa class aja tanpa
 3. ![percobaan1](img/3.PNG)
 link kode program : 
 
-[ini link ke kode program ](../../src/4_Relasi_Class/Processor1841720049Nurus.java)
+[ini link ke kode program processor](../../src/4_Relasi_Class/Processor1841720049Nurus.java)
 
-[ini link ke kode program ](../../src/4_Relasi_Class/Laptop1841720049Nurus.java)
+[ini link ke kode program laptop](../../src/4_Relasi_Class/Laptop1841720049Nurus.java)
 
-[ini link ke kode program ](../../src/4_Relasi_Class/MainPercobaan1_1841720049Nurus.java)
+[ini link ke kode program main](../../src/4_Relasi_Class/MainPercobaan1_1841720049Nurus.java)
 
 ## Pertanyaan
 
@@ -69,13 +69,13 @@ Jawab : p digunakan untuk memanggil objek processor. Jika diubah hasilnya akan s
 
 link kode program : 
 
-[ini link ke kode program ](../../src/4_Relasi_Class/Mobil1841720049nurus.java)
+[ini link ke kode program mobil](../../src/4_Relasi_Class/Mobil1841720049nurus.java)
 
-[ini link ke kode program ](../../src/4_Relasi_Class/Sopir1841720049nurus.java)
+[ini link ke kode program sopir](../../src/4_Relasi_Class/Sopir1841720049nurus.java)
 
-[ini link ke kode program ](../../src/4_Relasi_Class/Pelanggan1841720049nurus.java)
+[ini link ke kode program pelanggan](../../src/4_Relasi_Class/Pelanggan1841720049nurus.java)
 
-[ini link ke kode program ](../../src/4_Relasi_Class/MainPercobaan2_1841720049nurus.java)
+[ini link ke kode program main](../../src/4_Relasi_Class/MainPercobaan2_1841720049nurus.java)
 
 ## Pertanyaan 
 
@@ -110,13 +110,18 @@ Jawab :
 
 ### Percobaan 3 
 
-
+![Percobaan 3](img/8.PNG)
+![Percobaan 3](img/9_1.PNG)
+![Percobaan 3](img/9_2.PNG)
+![Percobaan 3](img/10.PNG)
 
 link kode program : 
 
-[ini contoh link ke kode program ](../../src/4_Relasi_Class/)
+[ini contoh link ke kode program pegawai](../../src/4_Relasi_Class/Pegawai1841720049Nurus.java)
 
-[ini contoh link ke kode program main](../../src/4_Relasi_Class/)
+[ini contoh link ke kode program kereta api](../../src/4_Relasi_Class/KeretaApi1841720049Nurus.java)
+
+[ini contoh link ke kode program main](../../src/4_Relasi_Class/MainPercobaan3_1841720049Nurus.java)
 
 ## Pertanyaan 
 
@@ -141,14 +146,21 @@ Jawab :
 
 ### Percobaan 4
 
-![Percobaan 4](img/8.PNG)
-![Percobaan 4](img/9.PNG)
+![Percobaan 4](img/11.PNG)
+![Percobaan 4](img/12.PNG)
+![Percobaan 4](img/12_2.PNG)
+![Percobaan 4](img/13_2.PNG)
+![Percobaan 4](img/14.PNG)
 
 link kode program : 
 
-[ini contoh link ke kode program ](../../src/4_Relasi_Class/)
+[ini contoh link ke kode program penumpang](../../src/4_Relasi_Class/Penumpang1841720049Nurus.java)
 
-[ini contoh link ke kode program main](../../src/4_Relasi_Class/)
+[ini contoh link ke kode program gerbong](../../src/4_Relasi_Class/Gerbong1841720049Nurus.java)
+
+[ini contoh link ke kode program kursi](../../src/4_Relasi_Class/Kursi1841720049Nurus.java)
+
+[ini contoh link ke kode program main](../../src/4_Relasi_Class/MainPercobaan4_1841720049Nurus.java)
 
 ## Pertanyaan 
 1.  Pada  main  program dalam  class  MainPercobaan4, berapakah jumlah kursi dalam Gerbong A ?
@@ -180,7 +192,26 @@ Jawab :
 
 1. Bioskop
 
+![tugas](img/15.PNG)
+![tugas](img/15_2.PNG)
+![tugas](img/16.PNG)
+![tugas](img/16_2.PNG)
+![tugas](img/17.PNG)
+![tugas](img/18.PNG)
+![tugas](img/19.PNG)
+![tugas](img/20.PNG)
 
+link kode program : 
+
+[ini contoh link ke kode program studio](../../src/4_Relasi_Class/tugas/relasi_kelas/Studio1841720049Nurus.java)
+
+[ini contoh link ke kode program cemilan](../../src/4_Relasi_Class/tugas/relasi_kelas/Cemilan1841720049Nurus.java)
+
+[ini contoh link ke kode program pegawai](../../src/4_Relasi_Class/tugas/relasi_kelas/Pegawai1841720049Nurus.java)
+
+[ini contoh link ke kode program bioskop](../../src/4_Relasi_Class/tugas/relasi_kelas/Bioskop1841720049Nurus.java)
+
+[ini contoh link ke kode program main](../../src/4_Relasi_Class/tugas/relasi_kelas/MainTugas1841720049Nurus.java)
 
 ## Kesimpulan
 

@@ -7,17 +7,16 @@ package com.mycompany.percobaan4.relasi_kelas;
 public class Gerbong1841720049Nurus {
     private String mKode;
     private Kursi1841720049Nurus [] mArrayKursi;
-    
-    private void initKursi(){
-        for(int i = 0; i<mArrayKursi.length; i++){
-            this.mArrayKursi[i] = new Kursi1841720049Nurus(String.valueOf(i+1));
-        }
-    }
     Gerbong1841720049Nurus(String kode, int jumlah) {
         this.mKode = kode;
         this.mArrayKursi = new Kursi1841720049Nurus[jumlah];
         this.initKursi();
 }
+    private void initKursi(){
+        for(int i = 0; i<mArrayKursi.length; i++){
+            this.mArrayKursi[i] = new Kursi1841720049Nurus(String.valueOf(i+1));
+        }
+    }
 
     public String getmKode() {
         return mKode;
@@ -39,7 +38,7 @@ public class Gerbong1841720049Nurus {
         this.mArrayKursi[nomor - 1].setmPenumpang(penumpang);
     }
     public String info(){
-        String info = " ";
+        String info = "";
         info += "Kode: "+mKode+"\n";
         for(Kursi1841720049Nurus kursi : mArrayKursi){
             info += kursi.info();

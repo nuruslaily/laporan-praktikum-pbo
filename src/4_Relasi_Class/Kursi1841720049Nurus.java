@@ -8,7 +8,7 @@ public class Kursi1841720049Nurus {
     private String mNomer;
     private Penumpang1841720049Nurus mPenumpang;
     Kursi1841720049Nurus(String nomer){
-        
+        mNomer = nomer;
     }
 
     public String getmNomer() {
@@ -27,7 +27,7 @@ public class Kursi1841720049Nurus {
         this.mPenumpang = mPenumpang;
     }
     public String info() {
-        String info = " ";
+        String info = "";
         info += "Nomor: " + mNomer + "\n";
         if (this.mPenumpang != null) {
         info += "Penumpang: " + mPenumpang.info() + "\n";
