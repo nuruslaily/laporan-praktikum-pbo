@@ -197,6 +197,9 @@ info += "Penumpang: " + penumpang.info() + "\n";
 
 1. Bioskop
 
+Class Diagram
+![tugas](img/classdiagram.jpg)
+Source Code
 ![tugas](img/15.PNG)
 ![tugas](img/15_2.PNG)
 ![tugas](img/16.PNG)
