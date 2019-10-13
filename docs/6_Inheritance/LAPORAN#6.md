@@ -1,4 +1,4 @@
-# Laporan Praktikum #4 - Inheritance (Pewarisan)
+# Laporan Praktikum #6 - Inheritance (Pewarisan)
 
 ## Kompetensi
 
