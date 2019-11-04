@@ -95,7 +95,7 @@ Jawab : Virtual method invocation terjadi ketika ada pemanggilan overriding meth
 
 link kode program : 
 
-![ini link ke kode program main](../../src/10_Polimorfisme/Tester3_1841720049Nurus.java)
+[ini link ke kode program main](../../src/10_Polimorfisme/Tester3_1841720049Nurus.java)
 
 ## Pertanyaan 
 
@@ -117,7 +117,7 @@ Jawab : Dikarenakan objek eBill tidak terdapat pada Employee, maka harusnya diub
 
 link kode program : 
 
-![ini link ke kode program main](../../src/10_Polimorfisme/Tester3_1841720049Nurus.java)
+[ini link ke kode program main](../../src/10_Polimorfisme/Tester3_1841720049Nurus.java)
 
 ## Pertanyaan
 1. Perhatikan class Tester4 baris ke-7  dan baris ke-11, mengapa pemanggilan ow.pay(eBill) dan ow.pay(pEmp) bisa dilakukan, padahal jika diperhatikan method pay() yang ada di dalam class Owner memiliki argument/parameter bertipe Payable? Jika diperhatikan lebih detil eBill merupakan objek dari ElectricityBill dan pEmp merupakan objek dari PermanentEmployee?
@@ -157,17 +157,17 @@ Jawab : digunakan untuk mengubah tipe dari suatu objek. karena objek p perlu unt
 
 link kode program : 
 
-![ini link ke kode program zombie](../../src/10_Polimorfisme/Zombie1841720049Nurus.java)
+[ini link ke kode program zombie](../../src/10_Polimorfisme/Zombie1841720049Nurus.java)
 
-![ini link ke kode program interface destroyable](../../src/10_Polimorfisme/IDestroyable1841720049Nurus.java)
+[ini link ke kode program interface destroyable](../../src/10_Polimorfisme/IDestroyable1841720049Nurus.java)
 
-![ini link ke kode program barrier](../../src/10_Polimorfisme/Barrier1841720049Nurus.java)
+[ini link ke kode program barrier](../../src/10_Polimorfisme/Barrier1841720049Nurus.java)
 
-![ini link ke kode program walking zombie](../../src/10_Polimorfisme/WalkingZombie1841720049Nurus.java)
+[ini link ke kode program walking zombie](../../src/10_Polimorfisme/WalkingZombie1841720049Nurus.java)
 
-![ini link ke kode program jumping zombie](../../src/10_Polimorfisme/JumpingZombie1841720049Nurus.java)
+[ini link ke kode program jumping zombie](../../src/10_Polimorfisme/JumpingZombie1841720049Nurus.java)
 
-![ini link ke kode program main](../../src/10_Polimorfisme/Plant1841720049Nurus.java)
+[ini link ke kode program main](../../src/10_Polimorfisme/Plant1841720049Nurus.java)
 
 ## Kesimpulan
 
