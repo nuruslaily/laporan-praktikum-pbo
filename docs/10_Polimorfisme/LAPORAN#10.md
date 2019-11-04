@@ -43,30 +43,30 @@ link kode program :
 ## Pertanyaan :
 1.  Class apa sajakah yang merupakan turunan dari class Employee?
 
-Jawab : 
+Jawab : class internship employee dan class permanent employee
 
 2.  Class apa sajakah yang implements ke interface Payable?
 
-Jawab :
+Jawab : class permanent employee dan class electricity bill
 
-3.  Perhatikan class Tester1, baris ke-10 dan 11. Mengapa e, bisa diisi dengan objek pEmp  (merupakan objek dari class PermanentEmployee) dan objek iEmp(merupakan objek dari class InternshipEmploye) ? 
+3.  Perhatikan class Tester1, baris ke-10 dan 11. Mengapa e, bisa diisi dengan objek pEmp (merupakan objek dari class PermanentEmployee) dan objek iEmp(merupakan objek dari class InternshipEmploye)?
 
-Jawab :
+Jawab : dikarenakan class internship employee dan class permanent employee merupakan turunan dari class employee yang di panggil dengan objek e
 
-4.  Perhatikan class Tester1, baris ke-12 dan 13. Mengapa p, bisa diisi dengan objek pEmp  (merupakan objek dari class PermanentEmployee) dan objek eBill(merupakan objek dari class ElectricityBill) ?
+4.  Perhatikan class Tester1, baris ke-12 dan 13. Mengapa p, bisa diisi dengan objek pEmp (merupakan objek dari class PermanentEmployee) dan objek eBill(merupakan objek dari class ElectricityBill) ?
 
-Jawab :
+Jawab : dikarenakan class permanent employee dan class electricity bill merupakan implements dari class interface Payable yang dipanggil dengan objek huruf p
 
 5.  Coba tambahkan sintaks:
 p = iEmp;
 e = eBill;
-pada baris 14 dan 15 (baris terakhir dalam method main) ! Apa yang menyebabkan error?
+Pada baris 14 dan 15 (baris terakhir dalam method main) ! Apa yang menyebabkan error?
 
-Jawab :
+Jawab : dikarenakan objek iemp(internship employee) bukan merupakan implements dari payable, begitu juga dengan ebill bukan merupakan turunan dari employee maka dari itu mereka jika dijalankan akan error
 
 6.  Ambil kesimpulan tentang konsep/bentuk dasar polimorfisme!
 
-Jawab :
+Jawab : jika kita memanggil objek harus sesuai, harus yang berhubungan antara class extends dengan turunannya dan juga class interface dengan turunannya
 
 ### Percobaan 2 - Virtual Method Invocation
 
@@ -77,17 +77,17 @@ link kode program :
 [ini link ke kode program main](../../src/10_Polimorfisme/Tester2_1841720049Nurus.java)
 
 ## Pertanyaan 
-1.  Perhatikan class  Tester2  di atas,  mengapa pemanggilan e.getEmployeeInfo()  pada baris 8 dan pEmp.getEmployeeInfo() pada baris 10  menghasilkan hasil sama? 
+1.  Perhatikan class Tester2 di atas,  mengapa pemanggilan e.getEmployeeInfo()  pada baris 8 dan pEmp.getEmployeeInfo() pada baris 10 menghasilkan hasil sama? 
 
-Jawab :
+Jawab : dikarenakan objek e = pEmp, jadi bernilai sama dan menghasilkan output yang sama
 
-2.  Mengapa pemanggilan method e.getEmployeeInfo()  disebut sebagai pemanggilan  method virtual (virtual method invication), sedangkan pEmp.getEmployeeInfo() tidak?
+2.  Mengapa pemanggilan method e.getEmployeeInfo() disebut sebagai pemanggilan method virtual (virtual method invication), sedangkan pEmp.getEmployeeInfo() tidak?
 
-Jawab :
+Jawab : karena pemanggilan method e.getEmployeeInfo() merupakan overriding, java bisa mengenali method mana yang dibutuhkan dan method mana yang akan ditampilkan
 
 3.  Jadi apakah yang dimaksud dari virtual method invocation? Mengapa disebut virtual?
 
-Jawab :
+Jawab : Virtual method invocation terjadi ketika ada pemanggilan overriding method dari suatu objek polimorfisme. Disebut virtual karena antara method yang dikenali oleh compiler dan method yang dijalankan oleh JVM berbeda.
 
 ### Percobaan 3 - Heterogenous Collection
 
@@ -101,11 +101,11 @@ link kode program :
 
 1.  Perhatikan array e pada baris ke-8, mengapa ia bisa diisi dengan objek-objek dengan tipe yang berbeda, yaitu objek pEmp(objek dari PermanentEmployee) dan objek iEmp (objek dari InternshipEmployee) ?
 
-Jawab :
+Jawab : dikarenakan objek pEmp dan objek iEmp masih sama-sama merupakan turunan/child dari objek e
 
 2.  Perhatikan juga baris ke-9, mengapa array p juga biisi dengan objek-objek dengan tipe yang berbeda, yaitu objek pEmp (objek dari PermanentEmployee) dan objek eBill (objek dari ElectricityBilling) ?
 
-Jawab :
+Jawab : dikarenakan objek pEmp dan objek eBill masih sama-sama merupakan implements dari objek p
 
 3.  Perhatikan baris ke-10, mengapa terjadi error?
 
@@ -120,26 +120,27 @@ link kode program :
 ![ini link ke kode program main](../../src/10_Polimorfisme/Tester3_1841720049Nurus.java)
 
 ## Pertanyaan
-1. Perhatikan class Tester4  baris ke-7  dan baris ke-11, mengapa pemanggilan ow.pay(eBill) dan ow.pay(pEmp) bisa dilakukan, padahal jika diperhatikan method pay() yang ada di dalam class Owner memiliki argument/parameter bertipe Payable? Jika diperhatikan lebih detil eBill merupakan objek dari ElectricityBill  dan pEmp merupakan objek dari PermanentEmployee?
+1. Perhatikan class Tester4 baris ke-7  dan baris ke-11, mengapa pemanggilan ow.pay(eBill) dan ow.pay(pEmp) bisa dilakukan, padahal jika diperhatikan method pay() yang ada di dalam class Owner memiliki argument/parameter bertipe Payable? Jika diperhatikan lebih detil eBill merupakan objek dari ElectricityBill dan pEmp merupakan objek dari PermanentEmployee?
 
-Jawab : 
+Jawab : dikarenakan objek pEmp dan objek eBill merupakan isi dari method pay yang berargument implements Payable dan mereka masih dalam satu implements Payable
 
 2. Jadi apakah tujuan membuat argument bertipe Payable pada method pay() yang ada di dalam class Owner?
 
-Jawab :
+Jawab : Tujuannya agar method tersebut bisa menerima nilai argument dari berbagai bentuk objek.
 
 3. Coba pada baris terakhir method main() yang ada di dalam class Tester4 ditambahkan perintah ow.pay(iEmp);
-
-Jawab : ![percobaan](img/19.PNG)
+![percobaan](img/19.PNG)
 Mengapa terjadi error? 
 
-4.  Perhatikan class  Owner,  diperlukan  untuk apakah sintaks  p instanceof ElectricityBill pada baris ke-6 ?
+Jawab : dikarenakan objek iEmp(internship employee) bukan merupakan dari implements Payable dan tidak terdapat pada method pay maka dari itu terjadilah error
 
-Jawab :
+4.  Perhatikan class Owner, diperlukan untuk apakah sintaks p instanceof ElectricityBill pada baris ke-6 ?
+
+Jawab : diperlukan untuk mengecek apakah suatu objek p merupakan hasil instansiasi dari class electricityBill
 
 5.  Perhatikan kembali class Owner baris ke-7, untuk apakah casting objek disana (ElectricityBill eb = (ElectricityBill) p) diperlukan ? Mengapa objek p yang bertipe Payable harus di-casting ke dalam objek eb yang bertipe ElectricityBill ?
 
-Jawab :
+Jawab : digunakan untuk mengubah tipe dari suatu objek. karena objek p perlu untuk diubah ke dalam objek eb
 
 ### Tugas
 1. ![percobaan](img/9.PNG)
@@ -170,8 +171,7 @@ link kode program :
 
 ## Kesimpulan
 
-Abstract Class adalah class  yang tidak dapat diinstansiasi namun dapat di-extend sedangkan Interface adalah struktur data yang hanya berisi  abstract methods.
-Saya sebenarnya kurang sedikit paham pada abstrac class dan interface ini.
+Kita dapat mempelajari polimorfisme lebih mendalam dan kita juga dapat mengetahui konsep dan bentuk dasarnya yang terdiri dari virtual method invocation,  polimorfisme argument, operator instanceof serta object casting.
 
 ## Pernyataan Diri
 
