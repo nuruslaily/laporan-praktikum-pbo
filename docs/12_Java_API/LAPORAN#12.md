@@ -24,104 +24,133 @@ dalam package java.util dan mempunyai dua interface utama yaitu Collection. Coll
 
 link kode program : 
 
-[ini link ke kode program Hello GUI](../../src/12_GUI/HelloGui1841720049Nurus.java)
+[ini link ke kode program Hello GUI](../../src/12_Java_API/DemoHashSet1841720049Nurus.java)
 
 ### Pertanyaan
 
 1.  Apakah fungsi import java.util.*; pada program diatas!
 
-Jawab :
+Jawab : untuk menamplikan semua inputan yang ada dalam satu project
 
 2.  Pada baris program keberapakah yang berfungsi untuk menciptakan object HashSet?
 
-Jawab :
+Jawab : pada baris ke-12
 
 3.  Apakah fungsi potongan program dibawah ini pada percobaan 1! 
 
-Jawab :
+![percobaan](img/1_1.PNG)
+
+Jawab : untuk menambahkan isi dari suatu objek tersebut
 
 4.  Tambahkan set.add(“Malang”); kemudian jalankan program! Amati hasilnya dan jelaskan mengapa terjadi error!
 
-Jawab :
+Jawab : dikarenakan tidak terdapat objek set.add hanya terdapat mSetCity.add
 
 5.  Jelaskan fungsi potongan program dibawah ini pada percobaan 1!
+![percobaan](img/1_2.PNG)
 
-Jawab :
+Jawab : fungsi tersebut digunakan untuk perulangan 
 
 ## Percobaan 2 - List
 
 ### Langkah Percobaan (ArrayList)
 
 1. ![percobaan](img/2.PNG)
-2. ![percobaan](img/3.PNG)
-3. ![percobaan](img/4.PNG)
-4. ![percobaan](img/5.PNG)
 
 link kode program : 
 
-[ini link ke kode program My Input Form](../../src/11_GUI/MyInputForm1841720049Nurus.java)
+[ini link ke kode program](../../src/12_Java_API/CobaArrayList1841720049Nurus.java)
 
 ### Pertanyaan 
 1.  Apakah fungsi potongan program dibawah ini!
+![percobaan](img/2_1.PNG)
 
-Jawab : ![percobaan](img/6.PNG)
+Jawab : digunakan untuk mengurutkan pada index ke 0 dan ke 2
 
 2. Ganti potongan program pada soal no 1 menjadi sebagai berikut
-
+![percobaan](img/2_2.PNG)
 Kemudian jalankan program tersebut!
+
+Jawab : ![percobaan](img/2T.PNG)
 
 3. Jelaskan perbedaan menampilkan data pada ArrayList menggunakan potongan program pada soal no 1 dan no 2!
 
-Jawab :
+Jawab : sebelumnya masih berupa data yang menjelaskan bahwa list n merupakan index ke n setelah dirubah hanya berupa isi dari objeknya saja
 
 ## Percobaan 3 - Map
 ### Langkah Percobaan 
 
-1. ![percobaan](img/7.PNG)
-2. ![percobaan](img/8.PNG)
-3. ![percobaan](img/9.PNG)
-4. ![percobaan](img/10.PNG)
+1. ![percobaan](img/3.PNG)
 
 link kode program : 
 
-[ini link ke kode program Border](../../src/11_GUI/Border1841720049Nurus.java)
-[ini link ke kode program Box](../../src/11_GUI/Box1841720049Nurus.java)
-[ini link ke kode program Grid](../../src/11_GUI/Grid1841720049Nurus.java)
-[ini link ke kode program Layout GUI](../../src/11_GUI/LayoutGUI1841720049Nurus.java)
+[ini link ke kode program](../../src/12_Java_API/DemoHashMap1841720049Nurus.java)
 
 ### Pertanyaan 
 
 1. Jelaskan fungsi hMapItem.put("1","Biskuit") pada program!
 
-Jawab :
+Jawab : menambahkan item pertama pada index pertama
 
 2. Jelaskan fungsi hMapItem.size() pada program!
 
-![percobaan](img/11.PNG)
+![percobaan](img/3_1.PNG)
 
-Jawab : untuk mendeklarasikan masing-masing objek 
+Jawab : untuk mendeklarasikan ukuran pada objek
 
 3. Jelaskan fungsi hMapItem.remove("1") pada program!
 
-Jawab :
+Jawab : untuk menghapus isi dari objek pada index ke 1
 
 4. Jelaskan fungsi hMapItem.clear() pada program!
 
-Jawab :
+Jawab : untuk membersihkan isi-isi dari objek
 
 5. Tambahkan kode program yang di blok pada program yang sudah anda buat!
-
-Jawab :
-
 6. Jalankan program dan amati apa yang terjadi! 
-
-Jawab :
-
+Jawab : ![percobaan](img/3T.PNG)
 7. Apakah perbedaan program sebelumnya dan setelah ditambahkan kode program pada soal no 5 diatas? Jelaskan!
 
-Jawab :
+Jawab : lebih tertata/tersusun pada saat menambahkan isi pada objek
 
+## Percobaan 4 - ImplemeNtasi ArrayList dalam GUI
+### Langkah Percobaan 
 
+1. ![percobaan](img/4.1.PNG)
+2. ![percobaan](img/4.2.PNG)
+3. ![percobaan](img/4.3.PNG)
+
+link kode program : 
+
+[ini link ke kode program input data](../../src/12_Java_API/InputData1841720049Nurus.java)
+[ini link ke kode program mahasiswa](../../src/12_Java_API/Mahasiswa1841720049Nurus.java)
+[ini link ke kode program tampil gui](../../src/12_Java_API/TampilGui1841720049Nurus.java)
+[ini link ke kode program tampil gui(form)](../../src/12_Java_API/TampilGui1841720049Nurus.form)
+
+## Percobaan 5 - Aplikasi Biodata
+### Langkah Percobaan 
+
+![percobaan](img/5.1.PNG)
+![percobaan](img/5.2.PNG)
+
+link kode program : 
+
+[ini link ke kode program form koneksi](../../src/12_Java_API/FormKoneksi1841720049Nurus.java)
+[ini link ke kode form form koneksi](../../src/12_Java_API/FormKoneksi1841720049Nurus.form)
+
+- Setelah menambah code pada action button klik, coba jalankan program dan tambahkan data. Apakah program berhasil menambahkan data? Jika tidak apakah penyebabnya.
+
+    Jawab : ![percobaan](img/5.3.PNG)
+    ![percobaan](img/5.4.PNG)
+
+- Jelaskan maksud source code untuk melakukan insert data diatas?
+
+    Jawab : untuk mengisi pada tabel anggota dengan menggunakan query insert pada database biodata
+- Jelaskan alur dari method ambil_data_tabel?
+![percobaan](img/5.5.PNG)
+![percobaan](img/5.6.PNG)
+
+    Jawab : method ambil data digunakan untuk mengambil data pada database dengan menambahkan id, nama, alamat dan telepon
 ## Pernyataan Diri
 
 Saya menyatakan isi tugas, kode program, dan laporan praktikum ini dibuat oleh saya sendiri. Saya tidak melakukan plagiasi, kecurangan, menyalin/menggandakan milik orang lain.
