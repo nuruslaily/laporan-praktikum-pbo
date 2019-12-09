@@ -130,6 +130,24 @@ link kode program :
 - [ini link ke kode program](../../src/14_GUI_dan_Database/FrmBuku1841720049Nurus.form)
 - [ini link ke kode program](../../src/14_GUI_dan_Database/FrmBuku1841720049Nurus.java)
 
+## Tugas
+- ![percobaan](img/tugas.PNG)
+- ![percobaan](img/tugas1.PNG)
+- ![percobaan](img/tugas2.PNG)
+- ![percobaan](img/tugas3.PNG)
+- ![percobaan](img/tugas4.PNG)
+- ![percobaan](img/tugas5.PNG)
+- ![percobaan](img/tugas6.PNG)
+- ![percobaan](img/tugas7.PNG)
+- ![percobaan](img/tugas8.PNG)
+- ![percobaan](img/tugas9.PNG)
+- ![percobaan](img/tugas10.PNG)
+
+link kode program : 
+- [ini link ke kode program](../../src/14_GUI_dan_Database/Peminjaman1841720049Nurus.java)
+- [ini link ke kode program](../../src/14_GUI_dan_Database/FrmPeminjaman1841720049Nurus.form)
+- [ini link ke kode program](../../src/14_GUI_dan_Database/FrmPeminjaman1841720049Nurus.java)
+
 ## Pernyataan Diri
 
 Saya menyatakan isi tugas, kode program, dan laporan praktikum ini dibuat oleh saya sendiri. Saya tidak melakukan plagiasi, kecurangan, menyalin/menggandakan milik orang lain.
